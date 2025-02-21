@@ -1,0 +1,69 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "givenName": "Professor Toad Thorne",
+    "motivations": "\nWhy I Want to Be a DRep\n\nI want to be a DRep because I’m hooked on fixing messes—Cardano’s governance is just another puzzle begging for a sharp eye. I’m no tech guru, but I thrive on breaking down chaos into solutions. It’s a chance to steer this blockchain right, not let it flop like a bad repair job. Plus, I’d rather wrestle governance than my last stubborn bolt.\n\nExperiences I Bring\n\nProfessionally, I’m an analytical troubleshooter—years spent diagnosing breakdowns, from jammed systems to cranky machines. I’ve got a knack for spotting weak spots before they blow up and patching them with no fluff. Personally, I’m the guy who overanalyzes everything—ask my wife about our “optimal grocery route” debates. That mix of grit and overthinking means I’ll tackle Cardano’s headaches with logic, a smirk, and a steady hand—ready to make it hum, not stall.\n",
+    "objectives": "Beliefs\n\nI’m running as a DRep because Cardano’s governance shouldn’t be a techie mess or a suit’s playground. I’m an analytical troubleshooter—fixing headaches, not coding dreams. I’ll keep votes clear as a cracked case, open to all ADA holders, aimed at the long haul, and owned up to like a botched fix.\n\nGoals\n\nScalability: Push Hydra so Cardano runs smooth, not like a clogged line.\nSustainability: Stretch resources—like telling pools to quit guzzling—outlasting my last DIY flop.\nSecurity: Fund locks tighter than my toolbox—no gaps for trouble.\nCommunity: Make governance easy as unjamming a printer, with tools and cash for ideas.\nInnovation: Back wild fixes to keep Cardano sharp, not stale.\nWhy Me?\n\nNo tech bro hype here—just a problem-solver with a grin. I’ll tackle Cardano’s knots with smarts and sass—delegate to me, and we’ll sort it, less pain than a Monday crash!",
+    "paymentAddress": "addr1qxsttdtcpyfnhuvdcxtwu6wwwffmqgncaauqcxkr5d6d8yce4mswpv8x6y0r0hv2zwc5v49xv0fh4ct3c85rjuln3ueqrv0ud4",
+    "qualifications": "Qualifications for DRep Role\n\nAdvanced Problem-Solving: Decades resolving intricate electrical system failures—addressing critical issues that defied initial analysis. I’ll apply this rigor to Cardano’s governance challenges.\nAnalytical Precision: Skilled at diagnosing faults in complex electrical networks, preventing corporate disruptions. I’ll evaluate governance proposals with clarity and focus.\nRisk Mitigation: Experienced in identifying potential failures in high-stakes electrical systems before escalation—ensuring operational stability. I’ll assess Cardano proposals for resilience.\nEffective Communication: Adept at conveying technical solutions to non-expert stakeholders—ensuring understanding. I’ll present voting rationales transparently to ADA holders.\nDetermination: Proven ability to resolve persistent electrical issues through sustained effort—delivering results. I’ll approach Cardano’s governance with unwavering commitment.",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "Professor Toad Thorne",
+        "uri": "https://x.com/thornetoddm"
+      }
+    ]
+  }
+}
